@@ -150,6 +150,7 @@ button{
     flex: 1;
     justify-content: center;
     gap: 40px;
+    text-align: center;
 
 }
 
@@ -162,23 +163,57 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
 }
 
 
 .minicard {
-    height: 100px;
-    width: 100px;
+    height: 130px;
+    width: 130px;
     border: 4px solid #3882f6;
     border-radius: 10px;
     background-color: #1f2937;
+    display: flex;
+    flex-shrink: 0;
 }
 
 /*content 2*/
 .content2 {
-
-
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.quote {
+    height: 280px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#quote1 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 0;
+
+}
+
+h3 {
+    margin: 0;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    font-size: 26px;
+
 }
 
 
