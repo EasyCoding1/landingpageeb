@@ -105,7 +105,7 @@ body {
     margin-top: 0px;
 }
 
-button{
+#topbutton{
     background-color: #3882f6;
     width: 100px;
     color: #f9faf8;
@@ -217,3 +217,68 @@ h3 {
 }
 
 
+
+/*content 3*/
+
+.content3 {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.cont3box {
+    background-color: #3882f6;
+    height: 200px;
+    width: 1000px;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.cont3left {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: center;
+    color: #e5e7eb;
+    padding-left: 15px;
+    align-items: flex-start;
+
+}
+
+.cont3right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 35px;
+
+}
+
+h5 {
+    margin-bottom: 0px;
+    font-size: 36px;
+}
+
+#ctap {
+    margin-top: 0px;
+
+}
+
+#bottombutton {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    padding-bottom: 0px;
+
+
+}
