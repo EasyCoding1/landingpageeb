@@ -279,6 +279,15 @@ h5 {
     color: #e5e7eb;
     border-color: #e5e7eb;
     padding-bottom: 0px;
+}
 
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
 
 }
